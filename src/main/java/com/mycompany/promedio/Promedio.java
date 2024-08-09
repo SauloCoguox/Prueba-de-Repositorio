@@ -26,5 +26,14 @@ public class Promedio {
         /*Se realizan las operaciones para dar el promedio*/
         System.out.println("El promedio de las notas es de: "+ prome);
         /*Se muestra el resultado*/
+        if (prome >= 61 ) {
+        /*Condicional para saber si se aporbo o no la clase
+        ser le da una respuesta al estudiante 
+        */    
+            System.out.println("Ustes a aprobador el curso");
+        } else {
+            System.out.println("Ustes no a aprobador el curso");
+        }
+        
     }
 }
